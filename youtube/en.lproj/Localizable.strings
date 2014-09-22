@@ -1,0 +1,37 @@
+/* 
+  Localizable.strings
+  youtube
+
+  Created by Jonathan Martin on 17/02/2014.
+  Copyright (c) 2014 ColtBoy. All rights reserved.
+*/
+
+"Videos" = "Videos";
+"Favorites" = "Favorites";
+"Social" = "Social";
+"Select a channel" = "Select a channel";
+"NO INTERNET CONNECTION" = "NO INTERNET CONNECTION";
+"Please check your internet connection or try again later" = "Please check your internet connection or try again later";
+"NO RESULT ?" = "NO RESULT ?";
+"To make another search just touch the search icon at the upper right corner" = "To make another search just touch the search icon at the upper right corner";
+"Change theme color" = "Change theme color";
+"minutes" = "minutes";
+"minute" = "minute";
+"hours" = "hours";
+"hour" = "hour";
+"days" = "days";
+"day" = "day";
+"month" = "month";
+"months" = "months";
+"year" = "year";
+"years" = "years";
+"Take a look at this video : " = "Take a look at this video : ";
+"Warning" = "Warning";
+"There are no Facebook accounts configured. You can add or create a Facebook account in Settings." = "There are no Facebook accounts configured. You can add or create a Facebook account in Settings.";
+"OK" = "OK";
+"There are no Twitter accounts configured. You can add or create a Twitter account in Settings." = "There are no Twitter accounts configured. You can add or create a Twitter account in Settings.";
+"To mark an item as favorite just touch the heart icon at the upper right corner of the item box" = "To mark an item as favorite just touch the heart icon at the upper right corner of the item box";
+"No network connection" = "No network connection";
+"It appears there is no avalaible network connection. Try to find a WiFi point or look at your device settings" = "It appears there is no avalaible network connection. Try to find a WiFi point or look at your device settings";
+"%ld %@ ago" = "%ld %@ ago";
+"You need a Mail account to continue." = "You need a Mail account to continue.";

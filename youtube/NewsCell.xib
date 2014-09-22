@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="44" id="2sF-jG-Kfz" customClass="NewsCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="181"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2sF-jG-Kfz" id="eLD-V5-EEt">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <webView opaque="NO" tag="94" contentMode="scaleToFill" mediaPlaybackRequiresUserAction="NO" id="ulW-n6-2Sl">
+                        <rect key="frame" x="0.0" y="-30" width="320" height="240"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <dataDetectorType key="dataDetectorTypes"/>
+                    </webView>
+                    <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shadow_up.png" id="VBk-4w-A4G" userLabel="shadow_up">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="51"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" tag="99" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shadow_down.png" id="17I-aT-nUC" userLabel="shadow_down">
+                        <rect key="frame" x="0.0" y="129" width="320" height="51"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="98" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oSg-en-Tpo" userLabel="title">
+                        <rect key="frame" x="10" y="140" width="253" height="20"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="97" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="duration" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jfK-PX-LaC" userLabel="duration">
+                        <rect key="frame" x="271" y="140" width="42" height="20"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="96" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kCJ-Lo-mrU" userLabel="time">
+                        <rect key="frame" x="10" y="158" width="209" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="9"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="dsO-3E-9EF">
+                        <rect key="frame" x="0.0" y="-1" width="320" height="181"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="TouchedCell:" destination="2sF-jG-Kfz" eventType="touchUpInside" id="Iiw-aE-jW9"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="95" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="NdT-Aa-a5c" userLabel="heart">
+                        <rect key="frame" x="270" y="0.0" width="50" height="50"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" image="heart_empty.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="favoriteSelected:" destination="2sF-jG-Kfz" eventType="touchUpInside" id="7RA-eA-35n"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="backgroundView" destination="ulW-n6-2Sl" id="dy2-th-ql9"/>
+                <outlet property="btnAction" destination="dsO-3E-9EF" id="WLY-tV-v6B"/>
+                <outlet property="duration" destination="jfK-PX-LaC" id="u76-eJ-e7K"/>
+                <outlet property="heart" destination="NdT-Aa-a5c" id="rwh-zI-XRd"/>
+                <outlet property="shadowDown" destination="17I-aT-nUC" id="uGz-Bo-f87"/>
+                <outlet property="shadowUp" destination="VBk-4w-A4G" id="zfG-0w-Ses"/>
+                <outlet property="time" destination="kCJ-Lo-mrU" id="s3x-x1-hS4"/>
+                <outlet property="title" destination="oSg-en-Tpo" id="gqF-O4-c1l"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="heart_empty.png" width="33" height="28"/>
+        <image name="shadow_down.png" width="320" height="67"/>
+        <image name="shadow_up.png" width="320" height="67"/>
+    </resources>
+</document>

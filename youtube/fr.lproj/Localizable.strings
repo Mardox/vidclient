@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  youtube
+
+  Created by Jonathan Martin on 17/02/2014.
+  Copyright (c) 2014 ColtBoy. All rights reserved.
+*/
+
+"Videos" = "Vidéos";
+"Favorites" = "Favoris";
+"Social" = "Social";
+"Select a channel" = "Choisissez une chaîne";
+"NO INTERNET CONNECTION" = "PAS DE CONNECTION INTERNET";
+"Please check your internet connection or try again later" = "Veuillez vérifier votre connexion internet ou réessayez plus tard";
+"NO RESULT ?" = "AUCUN RESULTAT ?";
+"NO FAVORITE ?" = "AUCUN FAVORIS ?";
+"To make another search just touch the search icon at the upper right corner" = "Pour faire une nouvelle recherche, cliquez sur l'icône en haut à droite";
+"Change theme color" = "Changer la couleur du thème";
+"minutes" = "minutes";
+"minute" = "minute";
+"hours" = "heures";
+"hour" = "heure";
+"days" = "jours";
+"day" = "jour";
+"month" = "mois";
+"months" = "mois";
+"year" = "année";
+"years" = "années";
+"Take a look at this video : " = "Regardez cette vidéo : ";
+"Warning" = "ATTENTION";
+"There are no Facebook accounts configured. You can add or create a Facebook account in Settings." = "Aucun compte Facebook n'est configuré. Vous pouvez en ajouter ou en créer un dans Réglages";
+"OK" = "OK";
+"There are no Twitter accounts configured. You can add or create a Twitter account in Settings." = "Aucun compte Twitter n'est configuré. Vous pouvez en ajouter ou en créer un dans Réglages";
+"To mark an item as favorite just touch the heart icon at the upper right corner of the item box" = "Pour ajouter une vidéo à vos favoris, cliquez sur le coeur en haut à droite de la vidéo";
+"No network connection" = "Pas de connection internet";
+"It appears there is no avalaible network connection. Try to find a WiFi point or look at your device settings" = "Il n'y a pas de connection internet disponible. Essayez de trouver un accès WiFi ou vérifiez que vos réglages soient bien configurés";
+"%ld %@ ago" = "Il y a %ld %@";
+"You need a Mail account to continue."= "Vous avez besoin d'un compte Mail pour continuer.";
